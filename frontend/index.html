@@ -7,12 +7,12 @@
     <meta name="theme-color" content="#ff6699" />
     <meta
       name="description"
-      content="A beautiful photo gallery app for couples to share their love story"
+      content="A beautiful personal journal and photo gallery app to capture your memories, thoughts, and special moments"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Our Love Story Gallery 💕</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Georgia:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>My Personal Journal 💕</title>
     <style>
       body {
         margin: 0;
@@ -25,6 +25,32 @@
       
       * {
         box-sizing: border-box;
+      }
+
+      /* Prevent text selection on decorative elements */
+      .decoration {
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #fff5f7;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #ff99bb;
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ff80aa;
       }
     </style>
   </head>
